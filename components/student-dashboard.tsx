@@ -7,7 +7,7 @@ import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ScrollArea } from "@/components/ui/scroll-area"
-import { BookOpen, User, CreditCard, CheckCircle, XCircle } from 'lucide-react'
+import { BookOpen, User, CreditCard, CheckCircle } from 'lucide-react'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
@@ -51,7 +51,7 @@ const initialFees: Fee[] = [
   { id: 2, description: 'Library Fee', amount: 500, paid: true },
 ]
 
-export function StudentDashboardComponent() {
+const StudentDashboard = () => {
   const [courses, setCourses] = useState<Course[]>(initialCourses)
   const [profile, setProfile] = useState<Profile>(initialProfile)
   const [fees, setFees] = useState<Fee[]>(initialFees)
@@ -220,3 +220,6 @@ export function StudentDashboardComponent() {
     </div>
   )
 }
+
+// Default export
+export default StudentDashboard;
