@@ -1,4 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Overview
+The College Management System Dashboard is a web application designed to facilitate the management of college operations. It features distinct interfaces for students, faculty, and admin users, allowing them to access relevant information and perform specific tasks. The dashboard is built with React and leverages modern UI components for a smooth user experience.
+
+Features
+Student Dashboard:
+
+Course registration and enrollment management
+Profile management (view and update personal information)
+Fee management (view fees and mark them as paid)
+
+Faculty Dashboard:
+
+Manage courses and grades
+View and update student attendance records
+Communicate with students and manage course materials
+
+Admin Dashboard:
+
+Manage students, faculty, and courses
+Generate reports on course enrollment and fee payment
+Administer the overall college system
+
+Tech Stack
+Frontend: React, TypeScript, Tailwind CSS
+UI Components: Custom UI components for buttons, inputs, cards, and tabs
+State Management: React hooks for state management
+Notifications: Toast notifications using react-toastify
+
+Usage
+
+Login Credentials
+
+Student Login
+Username: student
+Password: student123
+
+Admin Login
+Username: admin
+Password: admin123
+
+Faculty Login
+Username: faculty
+Password: faculty123
+
 
 ## Getting Started
 
