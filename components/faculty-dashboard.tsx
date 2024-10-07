@@ -21,7 +21,7 @@ interface Course {
   students: Student[]
 }
 
-export default function FacultyDashboard() {
+export function FacultyDashboardComponent() {
   const [activeTab, setActiveTab] = useState<string>('courses')
 
   const initialCourses: Course[] = [

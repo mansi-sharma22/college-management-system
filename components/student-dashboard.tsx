@@ -51,7 +51,7 @@ const initialFees: Fee[] = [
   { id: 2, description: 'Library Fee', amount: 500, paid: true },
 ]
 
-export default function StudentDashboard() {
+export function StudentDashboardComponent() {
   const [courses, setCourses] = useState<Course[]>(initialCourses)
   const [profile, setProfile] = useState<Profile>(initialProfile)
   const [fees, setFees] = useState<Fee[]>(initialFees)
